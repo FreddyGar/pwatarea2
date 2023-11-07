@@ -1,0 +1,56 @@
+/* ejercicio4-styles.css */
+h1{
+    text-align: center;
+}
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    position: relative;
+    background: url('https://i.pinimg.com/originals/8b/b2/1d/8bb21d0461312822691c1d47ef6d72e9.png') no-repeat center center;
+    background-size: contain;
+}
+
+img {
+    max-width: 100%;
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+#hourHand {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 50% 0;
+    transform: rotate(0deg);
+    z-index: 3;
+}
+
+#minuteHand {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 50% 0;
+    transform: rotate(0deg);
+    z-index: 2;
+}
+
+#secondHand {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 50% 0;
+    transform: rotate(0deg);
+    z-index: 1;
+}
+.btn_retorno{
+    margin-top: 20px;
+}
+a{
+    
+    padding-left: 45%;  
+}

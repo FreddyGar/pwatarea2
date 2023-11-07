@@ -1,0 +1,58 @@
+/* ejercicio8*/
+h1{
+    text-align: center;
+}
+
+.carousel-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+    max-height: 300px;
+}
+
+.slide {
+    display: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.controls {
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+
+.btn_retorno{
+    margin-top: 20px;
+}
+a{
+    
+    padding-left: 45%;  
+}

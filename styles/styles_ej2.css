@@ -1,0 +1,56 @@
+/***********************************Ejercicio 2******************************************/
+/* ejercicio2-styles.css */
+h1{
+    text-align: center;
+}
+
+.calculator {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+button {
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.operator {
+    background-color: #f3f3f3;
+    color: #333;
+}
+
+.number {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+button:hover {
+    cursor: pointer;
+}
+.boton_retorno a{
+    
+    padding-left: 45%;
+
+}
+.boton_retorno{
+    padding-top: 5%;
+}
